@@ -35,7 +35,7 @@ npm start
 
 ## Deploy on Vercel
 
-Pushing to `main` deploys to [https://the90-s-club.vercel.app](https://the90-s-club.vercel.app). Canonical, sitemap, and JSON-LD use that origin unless `NEXT_PUBLIC_SITE_URL` is set.
+Pushing to `main` deploys to production at [https://www.the90sclub.in](https://www.the90sclub.in). The bare domain and the old `the90-s-club.vercel.app` address redirect there. Canonical, sitemap, and JSON-LD use that origin unless `NEXT_PUBLIC_SITE_URL` is set. DNS: `A @ 76.76.21.21`, `CNAME www cname.vercel-dns.com`.
 
 ## Photos, logo, icons
 

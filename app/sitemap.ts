@@ -4,7 +4,7 @@ import { getSiteUrl } from "@/lib/site-url";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = getSiteUrl();
-  const lastModified = "2026-10-08";
+  const lastModified = "2026-10-21";
   const paths = [
     "",
     "/menu",
