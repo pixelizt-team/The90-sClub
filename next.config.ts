@@ -5,8 +5,13 @@ const nextConfig: NextConfig = {
   partialPrefetching: true,
   async redirects() {
     return [
-      // Once www.the90sclub.in is live, send the vercel.app address there:
-      // { source: "/:path*", has: [{ type: "host", value: "the90-s-club.vercel.app" }], destination: "https://www.the90sclub.in/:path*", permanent: true },
+      // The old vercel.app address sends everything to the client domain.
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "the90-s-club.vercel.app" }],
+        destination: "https://www.the90sclub.in/:path*",
+        permanent: true,
+      },
       { source: "/contact", destination: "/visit", statusCode: 301 },
       { source: "/rooftop-pub", destination: "/#gallery", statusCode: 302 },
       { source: "/craft-beer", destination: "/menu", statusCode: 302 },
