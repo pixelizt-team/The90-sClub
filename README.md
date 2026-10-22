@@ -41,7 +41,7 @@ Pushing to `main` deploys to production at [https://www.the90sclub.in](https://w
 
 Photographs in `public/photos/` are enhanced versions of the client Photo Drive frames (assets-v2). Filenames are stable so later replacements can drop in.
 
-There is no rooftop or open-sky photograph. Copy may still say rooftop pub. Image alt text describes the interior that is shown.
+The venue is on the rooftop level but fully enclosed and air-conditioned. Never write open-air, terrace, or rooftop tables; the copy check blocks these.
 
 Five stock dish photographs in `public/photos/stock/` (Pexels, free licence) are used only for the signature plates on the home page and the Kerala page. They are listed in `lib/photos.ts` under `stockDishes` and should be replaced as the photoshoot delivers.
 

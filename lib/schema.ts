@@ -17,7 +17,7 @@ export function restaurantJsonLd() {
     name: mapsName,
     alternateName: publicName,
     description:
-      "Kerala kitchen and rooftop taproom in Hebbagodi, Electronic City, Bangalore. Craft beer from Flying Fox. Open daily from noon to midnight.",
+      "Kerala kitchen and retro taproom in Hebbagodi, Electronic City, Bangalore. Craft beer from Flying Fox. Open daily from noon to midnight.",
     url,
     image: `${url}/photos/food-spread-chilli-chicken-biryani-cocktails-the-90s-club-electronic-city-2400.jpg`,
     telephone: phone.tel,

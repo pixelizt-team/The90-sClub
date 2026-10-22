@@ -3,7 +3,7 @@ import Image from "next/image";
 import { photos } from "@/lib/photos";
 
 const story =
-  "Akhil Kumar and Sathish opened The 90s Club in February 2026 on the rooftop of Millennium Plaza, Hebbagodi. Kerala biryani, coconut fish curry and prawn ghee roast from the kitchen. Flying Fox craft beer and cocktails at the bar. Eighty seats, a fully AC room, parking at the plaza, and the music you grew up on all night.";
+  "Akhil Kumar and Sathish opened The 90s Club in February 2026 on the top floor of Millennium Plaza, Hebbagodi. Kerala biryani, coconut fish curry and prawn ghee roast from the kitchen. Flying Fox craft beer and cocktails at the bar. Eighty seats, a fully AC room, parking at the plaza, and the music you grew up on all night.";
 
 /** 05 About: numbered eyebrow, story, and a two-photo collage. */
 export function AboutSection() {

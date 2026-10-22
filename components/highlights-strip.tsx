@@ -1,11 +1,11 @@
-import { Clock, ParkingCircle, Snowflake, Star, Umbrella, Utensils } from "lucide-react";
+import { Building2, Clock, ParkingCircle, Snowflake, Star, Utensils } from "lucide-react";
 
 import { hours, rating } from "@/lib/site";
 
 const highlights = [
   { icon: Star, value: rating.value, label: `${rating.count} Google reviews` },
   { icon: Clock, value: hours.short, label: "Open daily" },
-  { icon: Umbrella, value: "Rooftop", label: "Open-air seating" },
+  { icon: Building2, value: "Rooftop", label: "Indoor, top floor" },
   { icon: Snowflake, value: "80 seats", label: "Fully AC" },
   { icon: ParkingCircle, value: "Parking", label: "Available on site" },
   { icon: Utensils, value: "Veg & Non-Veg", label: "Full menu" },

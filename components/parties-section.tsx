@@ -4,7 +4,7 @@ import { PartyEnquiryForm } from "@/components/party-enquiry-form";
 const plans = [
   { title: "Birthday Parties", copy: "Reserved tables and group menus" },
   { title: "Team Lunches & Corporate", copy: "Set menus for office teams" },
-  { title: "Date Nights", copy: "Rooftop tables for couples" },
+  { title: "Date Nights", copy: "Quiet tables for two" },
   { title: "Student Hangouts", copy: "Budget-friendly group combos" },
 ] as const;
 

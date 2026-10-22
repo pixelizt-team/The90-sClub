@@ -6,7 +6,7 @@ import { links } from "@/lib/site";
 
 const tiles: Photo[] = [photos.booth, photos.barFront, photos.boombox, photos.foodSpread, photos.logoWall, photos.neonBeer];
 
-/** 11 Gallery & Instagram. The lead frame is the taproom until a rooftop frame is shot. */
+/** Gallery & Instagram. */
 export function GalleryGrid() {
   return (
     <section id="gallery" className="lux-section scroll-mt-24 bg-ivory">
@@ -15,7 +15,7 @@ export function GalleryGrid() {
         <h2 className="lux-h2 mt-4 text-center text-ink">
           Inside <em>The 90s Club</em>
         </h2>
-        <p className="mx-auto mt-3 max-w-[48ch] text-center font-heading text-[1.35rem] text-ink-soft">The rooftop, the bar, the booths and the music corner.</p>
+        <p className="mx-auto mt-3 max-w-[48ch] text-center font-heading text-[1.35rem] text-ink-soft">The bar, the booths and the music corner.</p>
         <div className="mt-14 grid gap-4 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,1.5fr)]">
           <div className="lux-photo relative aspect-[4/3] lg:aspect-auto lg:min-h-full">
             <Image

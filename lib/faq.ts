@@ -22,9 +22,9 @@ export const homeFaqs: FaqItem[] = [
     answer: "Yes. Parking is available on site at Millennium Plaza.",
   },
   {
-    question: "Do you have rooftop and AC seating?",
+    question: "Is the seating indoors and air-conditioned?",
     answer:
-      "Yes. The 90s Club is a rooftop pub with about 80 seats and a fully air-conditioned dining room.",
+      "Yes. The 90s Club is on the rooftop level of Millennium Plaza, fully enclosed and air-conditioned, with about 80 seats.",
   },
   {
     question: "How late are you open?",

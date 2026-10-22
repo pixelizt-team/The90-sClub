@@ -1,5 +1,5 @@
 const line =
-  "Kerala kitchen ✦ Rooftop evenings ✦ Flying Fox craft beer ✦ Electronic City ✦ Open daily noon to midnight ✦ ";
+  "Kerala kitchen ✦ Retro evenings ✦ Flying Fox craft beer ✦ Electronic City ✦ Open daily noon to midnight ✦ ";
 
 export function MarqueeBand() {
   return (

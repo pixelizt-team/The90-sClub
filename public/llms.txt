@@ -1,25 +1,21 @@
 # The 90s Club
 
-The 90s Club is a Kerala kitchen and rooftop taproom in Electronic City, Bangalore. The taproom serves Flying Fox craft beer. Kerala food and Flying Fox craft beer under one roof at Millennium Plaza, Hebbagodi.
+The 90s Club is a Kerala kitchen and retro taproom on the top floor of Millennium Plaza, Hebbagodi, Electronic City, Bangalore. Fully enclosed and air-conditioned, about 80 seats. The taproom serves Flying Fox craft beer.
 
 Address: Millennium Plaza, 396/48 Hosur Rd, Dadi Reddy Layout, Veerasandra, Hebbagodi, Electronic City, Bangalore 560100
 Phone: +91 96321 41188
 WhatsApp: +91 96321 41188
 Instagram: https://www.instagram.com/the90sclubretropub
-Hours: 12 pm–12 am every day
+Hours: 12 PM to 12 AM every day; event nights till 1 AM
 Parking: at Millennium Plaza
-Seats: about 80, full AC
+Seats: about 80, full AC, indoor
 Geo: 12.8346301, 77.6793577
 Google Maps: https://share.google/IelhjSarfxq2uls3r
-Founders: Akhil and Sathish
+Founders: Akhil Kumar and Sathish
 Opened: February 2026
 
 Pages:
-- https://the90-s-club.vercel.app/
-- https://the90-s-club.vercel.app/menu
-- https://the90-s-club.vercel.app/kerala-food
-- https://the90-s-club.vercel.app/rooftop-pub
-- https://the90-s-club.vercel.app/craft-beer
-- https://the90-s-club.vercel.app/visit
-- https://the90-s-club.vercel.app/occasions
-- https://the90-s-club.vercel.app/about
+- https://www.the90sclub.in/
+- https://www.the90sclub.in/menu
+- https://www.the90sclub.in/kerala-food
+- https://www.the90sclub.in/visit

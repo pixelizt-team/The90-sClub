@@ -21,6 +21,7 @@ const banned = [
   ["brewery", /brewery/],
   ["fourth floor", /fourth floor/],
   ["terrace", /\bterrace\b/],
+  ["open-air claim", /open-air|open air|rooftop tables|under the sky/],
 ];
 
 function files(dir) {
@@ -56,8 +57,8 @@ const homeTitle = seoSource.match(/home:\s*\{[^}]*title:\s*"([^"]+)"/s)?.[1] ?? 
 const visitTitle = seoSource.match(/visit:\s*\{[^}]*title:\s*"([^"]+)"/s)?.[1] ?? "";
 if (homeTitle.length > 60) hits.push(`lib/seo.ts: home title is ${homeTitle.length} characters (max 60)`);
 if (visitTitle.length > 60) hits.push(`lib/seo.ts: visit title is ${visitTitle.length} characters (max 60)`);
-if (!/retro pub|rooftop pub/.test(homeTitle.toLowerCase())) {
-  hits.push("lib/seo.ts: home title must include rooftop pub");
+if (!/retro pub/.test(homeTitle.toLowerCase())) {
+  hits.push("lib/seo.ts: home title must include retro pub");
 }
 
 if (hits.length) {
