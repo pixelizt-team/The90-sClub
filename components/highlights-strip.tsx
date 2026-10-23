@@ -1,17 +1,17 @@
-import { Building2, Clock, ParkingCircle, Snowflake, Star, Utensils } from "lucide-react";
+import { Beer, Building2, ParkingCircle, Snowflake, Star, Utensils } from "lucide-react";
 
-import { hours, rating } from "@/lib/site";
+import { rating } from "@/lib/site";
 
 const highlights = [
   { icon: Star, value: rating.value, label: `${rating.count} Google reviews` },
-  { icon: Clock, value: hours.short, label: "Open daily" },
+  { icon: Beer, value: "Flying Fox", label: "Craft beer" },
   { icon: Building2, value: "Rooftop", label: "Indoor, top floor" },
   { icon: Snowflake, value: "80 seats", label: "Fully AC" },
   { icon: ParkingCircle, value: "Parking", label: "Available on site" },
   { icon: Utensils, value: "Veg & Non-Veg", label: "Full menu" },
 ] as const;
 
-/** 04 Key highlights: thin gold line icon, serif value, letter-spaced label, hairline dividers. */
+/** Key highlights under Why Choose Us. Hours are not repeated here. */
 export function HighlightsStrip() {
   return (
     <section aria-label="Key highlights" className="border-b border-line bg-ivory">

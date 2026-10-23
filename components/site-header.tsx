@@ -9,7 +9,7 @@ import { BrandLogo } from "@/components/brand-logo";
 import { PillLink } from "@/components/pill";
 import { InstagramIcon, WhatsAppIcon } from "@/components/social-icons";
 import { TopBar } from "@/components/top-bar";
-import { hours, links, phone, primaryNav, whatsappHref, whatsappMessages } from "@/lib/site";
+import { links, phone, primaryNav, whatsappHref, whatsappMessages } from "@/lib/site";
 
 const quickActions = [
   { href: links.directions, label: "Get directions", Icon: MapPin, external: true },
@@ -154,11 +154,7 @@ export function SiteHeader() {
             <PillLink href={whatsappHref(whatsappMessages.book)} tone="gold" className="mt-5 w-fit" external>
               Book a Table
             </PillLink>
-            <p className="mt-8 text-sm leading-6 text-ink-soft">
-              Open daily · {hours.summary}
-              <br />
-              Millennium Plaza, Hebbagodi
-            </p>
+            <p className="mt-8 text-sm leading-6 text-ink-soft">Millennium Plaza, Hebbagodi, Hosur Road</p>
           </nav>
         </div>
       ) : null}

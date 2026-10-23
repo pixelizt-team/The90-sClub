@@ -4,7 +4,7 @@ export const seo = {
   home: {
     title: "Retro Pub & Kerala Kitchen in Electronic City | 90s Club",
     description:
-      "Retro taproom and Kerala kitchen at Millennium Plaza, Hebbagodi. Biryani, seafood, craft beer, ₹999 beer bucket combo, BOGO drinks. 4.7 on Google. Open daily 12 PM – 12 AM.",
+      "Retro taproom and Kerala kitchen at Millennium Plaza, Hebbagodi, Hosur Road. Biryani, seafood, craft beer, ₹999 beer bucket combo, BOGO drinks. 4.7 on Google. Open daily 12 PM – 12 AM.",
     path: "/",
   },
   menu: {
