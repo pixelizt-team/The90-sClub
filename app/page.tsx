@@ -1,10 +1,9 @@
-import { Beer, Music, Star, Utensils, UtensilsCrossed } from "lucide-react";
+import { Beer, Music, PartyPopper, Star, Utensils, UtensilsCrossed } from "lucide-react";
 import Image from "next/image";
 
 import { AboutSection } from "@/components/about-section";
 import { CraftBeerSection } from "@/components/craft-beer-section";
 import { FaqList } from "@/components/faq-list";
-import { FoundersSection } from "@/components/founders-section";
 import { GalleryGrid } from "@/components/gallery-grid";
 import { HighlightsStrip } from "@/components/highlights-strip";
 import { IconCircle } from "@/components/icon-circle";
@@ -40,6 +39,11 @@ const reasons = [
     title: "Open till 1 AM on Event Nights",
     copy: "Birthdays, celebrations and special events",
   },
+  {
+    icon: PartyPopper,
+    title: "Custom Parties for Every Occasion & Budget",
+    copy: "Corporate events, birthdays, or special celebrations—we customize food, ambiance, and entertainment to match your exact needs and budget.",
+  },
 ] as const;
 
 export default function HomePage() {
@@ -62,11 +66,12 @@ export default function HomePage() {
         />
         <div className="lux-scrim-center absolute inset-0" />
         <div className="lux-container lux-on-photo relative z-10 flex flex-col items-center pt-32 pb-20 text-center lg:pt-40 lg:pb-24">
-          <p className="eyebrow text-gold-highlight">Retro taproom · Electronic City, Bengaluru</p>
-          <h1 className="lux-h1 mt-6 max-w-[24ch] text-ivory">
+          <h1 className="lux-h1 text-ivory">The 90s Club</h1>
+          <p className="eyebrow mt-5 text-gold-highlight">Retro taproom · Electronic City, Bengaluru</p>
+          <p className="lux-h2 mt-5 max-w-[24ch] text-ivory">
             Retro Pub & Kerala Kitchen
             <br className="hidden sm:block" /> in <em>Electronic City</em>
-          </h1>
+          </p>
           <p className="prose-body mx-auto mt-6 max-w-[46ch] text-ivory/90">
             Kerala biryani and seafood, Flying Fox craft beer, and the music you grew up on.
           </p>
@@ -89,13 +94,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 04 Key highlights */}
-      <HighlightsStrip />
-
-      {/* 05 About, then the menu straight after it */}
-      <AboutSection />
-      <MenuPreview />
-
+      {/* 01 Why choose us — first section after the hero */}
       <section className="bg-ivory">
         <div className="relative min-h-[30rem] bg-black lg:min-h-[36rem]">
           <Image
@@ -107,13 +106,13 @@ export default function HomePage() {
             style={{ objectPosition: photos.neonBar.position }}
           />
           <div className="absolute inset-0 bg-black/30" />
-                    <div className="relative z-10 flex min-h-[30rem] items-center justify-center px-5 py-16 lg:min-h-[36rem] lg:justify-end lg:px-[50px]">
+          <div className="relative z-10 flex min-h-[30rem] items-center justify-center px-5 py-16 lg:min-h-[36rem] lg:justify-end lg:px-[50px]">
             <div className="lux-card w-full max-w-[600px] bg-ivory px-8 py-10 text-ink sm:px-12 sm:py-14">
-              <p className="eyebrow text-gold-ink">03 — Why Choose Us</p>
+              <p className="eyebrow text-gold-ink">01 — Why Choose Us</p>
               <h2 className="lux-h2 mt-4">
                 Why <em>The 90s Club</em>
               </h2>
-              <p className="mt-3 font-heading text-[1.35rem] text-ink-soft">Three things the room is built around.</p>
+              <p className="mt-3 font-heading text-[1.35rem] text-ink-soft">Four things the room is built around.</p>
               <ul className="mt-8 space-y-5">
                 {reasons.map(({ icon: Icon, title, copy }) => (
                   <li key={title} className="flex gap-4">
@@ -130,33 +129,38 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 07 Signature dishes */}
+      <HighlightsStrip />
+
+      {/* 02 Menu */}
+      <MenuPreview />
+
+      {/* 03 Signature dishes */}
       <SignatureDishes />
 
-      {/* 09 Craft beer & bar */}
+      {/* 04 Craft beer & bar */}
       <CraftBeerSection />
 
-      {/* 10 Parties, events & group booking */}
+      {/* 05 About — club intro and founders story, one section */}
+      <AboutSection />
+
+      {/* 06 Parties, events & group booking */}
       <PartiesSection />
 
-      {/* 11 Gallery & Instagram */}
+      {/* 07 Gallery & Instagram */}
       <GalleryGrid />
 
-      {/* 12 Google reviews */}
+      {/* 08 Google reviews */}
       <ReviewsSection />
 
-      {/* 13 Our story / founders */}
-      <FoundersSection />
-
-      {/* 15 Location, hours & areas served */}
+      {/* 09 Location. Hours live here and in the footer. */}
       <LocationSection />
 
-      {/* 16 FAQ */}
+      {/* 10 FAQ */}
       <section id="faq" className="lux-section scroll-mt-24 bg-ivory">
         <div className="lux-container">
           <FaqList
             items={homeFaqs}
-            eyebrow="11 — FAQ"
+            eyebrow="10 — FAQ"
             lede="Cost for two, parking, hours and how to book."
             heading={
               <>
