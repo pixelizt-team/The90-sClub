@@ -66,12 +66,12 @@ export default function HomePage() {
         />
         <div className="lux-scrim-center absolute inset-0" />
         <div className="lux-container lux-on-photo relative z-10 flex flex-col items-center pt-32 pb-20 text-center lg:pt-40 lg:pb-24">
-          <h1 className="lux-h1 text-ivory">The 90s Club</h1>
-          <p className="eyebrow mt-5 text-gold-highlight">Retro taproom · Electronic City, Bengaluru</p>
-          <p className="lux-h2 mt-5 max-w-[24ch] text-ivory">
+          <p className="lux-h3 tracking-[0.04em] text-ivory">The 90s Club</p>
+          <p className="eyebrow mt-4 text-gold-highlight">Retro taproom · Electronic City, Bengaluru</p>
+          <h1 className="lux-h1 mt-6 max-w-[24ch] text-ivory">
             Retro Pub & Kerala Kitchen
             <br className="hidden sm:block" /> in <em>Electronic City</em>
-          </p>
+          </h1>
           <p className="prose-body mx-auto mt-6 max-w-[46ch] text-ivory/90">
             Kerala biryani and seafood, Flying Fox craft beer, and the music you grew up on.
           </p>
