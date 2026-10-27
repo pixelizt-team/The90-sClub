@@ -1,4 +1,4 @@
-import { Beer, Music, PartyPopper, Star, Utensils, UtensilsCrossed } from "lucide-react";
+import { Star, Utensils } from "lucide-react";
 import Image from "next/image";
 
 import { AboutSection } from "@/components/about-section";
@@ -14,6 +14,7 @@ import { PartiesSection } from "@/components/parties-section";
 import { PillLink } from "@/components/pill";
 import { ReviewsSection } from "@/components/reviews-section";
 import { SignatureDishes } from "@/components/signature-dishes";
+import { WhySection } from "@/components/why-section";
 import { homeFaqs } from "@/lib/faq";
 import { pageMetadata } from "@/lib/metadata";
 import { photos } from "@/lib/photos";
@@ -22,29 +23,6 @@ import { seo } from "@/lib/seo";
 import { rating, whatsappHref, whatsappMessages } from "@/lib/site";
 
 export const metadata = pageMetadata(seo.home);
-
-const reasons = [
-  {
-    icon: UtensilsCrossed,
-    title: "Authentic Kerala Cuisine",
-    copy: "Biryani, ghee roasts, seafood curries",
-  },
-  {
-    icon: Beer,
-    title: "Craft Beer on Tap",
-    copy: "Fresh pints, buckets & BOGO deals",
-  },
-  {
-    icon: Music,
-    title: "Open till 1 AM on Event Nights",
-    copy: "Birthdays, celebrations and special events",
-  },
-  {
-    icon: PartyPopper,
-    title: "Custom Parties for Every Occasion & Budget",
-    copy: "Corporate events, birthdays, or special celebrations—we customize food, ambiance, and entertainment to match your exact needs and budget.",
-  },
-] as const;
 
 export default function HomePage() {
   return (
@@ -94,40 +72,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 01 Why choose us — first section after the hero */}
-      <section className="bg-ivory">
-        <div className="relative min-h-[30rem] bg-black lg:min-h-[36rem]">
-          <Image
-            src={photos.neonBar.src}
-            alt={photos.neonBar.alt}
-            fill
-            sizes="100vw"
-            className="object-cover"
-            style={{ objectPosition: photos.neonBar.position }}
-          />
-          <div className="absolute inset-0 bg-black/30" />
-          <div className="relative z-10 flex min-h-[30rem] items-center justify-center px-5 py-16 lg:min-h-[36rem] lg:justify-end lg:px-[50px]">
-            <div className="lux-card w-full max-w-[600px] bg-ivory px-8 py-10 text-ink sm:px-12 sm:py-14">
-              <p className="eyebrow text-gold-ink">01 — Why Choose Us</p>
-              <h2 className="lux-h2 mt-4">
-                Why <em>The 90s Club</em>
-              </h2>
-              <p className="mt-3 font-heading text-[1.35rem] text-ink-soft">Four things the room is built around.</p>
-              <ul className="mt-8 space-y-5">
-                {reasons.map(({ icon: Icon, title, copy }) => (
-                  <li key={title} className="flex gap-4">
-                    <Icon aria-hidden="true" className="mt-1 size-5 shrink-0 text-gold" strokeWidth={1.4} />
-                    <div>
-                      <p className="font-heading text-[1.35rem] leading-tight text-ink">{title}</p>
-                      <p className="mt-1 text-sm text-ink-soft">{copy}</p>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* 01 Why choose us */}
+      <WhySection />
 
       <HighlightsStrip />
 
