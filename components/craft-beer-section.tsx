@@ -4,7 +4,7 @@ import { photos } from "@/lib/photos";
 
 const points = ["Craft beer on tap", "Bucket offers", "BOGO drinks", "Event nights"] as const;
 
-/** 09 Craft beer & bar. */
+/** 04 Craft beer and bar. */
 export function CraftBeerSection() {
   return (
     <section className="bg-ivory pb-[var(--section-y)]">
@@ -20,7 +20,7 @@ export function CraftBeerSection() {
           />
         </div>
         <div className="lg:pr-10">
-          <p className="eyebrow text-gold-ink">05 — The Taproom</p>
+          <p className="eyebrow text-gold-ink">04 — The Taproom</p>
           <h2 className="lux-h2 mt-4 text-ink">
             Craft beer & <em>bar</em>
           </h2>
