@@ -39,6 +39,7 @@ export const metadata: Metadata = {
   applicationName: "The 90s Club",
   authors: [{ name: "The 90s Club" }],
   robots: { index: true, follow: true },
+  verification: { google: "hoaCLGSF5pGgDTO7iKxMeyn-RtbJT3hRb_k7yPHOqRA" },
   formatDetection: { telephone: true, address: true, email: false },
   icons: siteIcons,
   manifest: "/site.webmanifest",
