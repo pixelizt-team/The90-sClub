@@ -34,7 +34,7 @@ export function WhySection() {
   return (
     <section className="lux-section bg-ivory">
       <div className="lux-container grid items-center gap-12 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-20">
-        <div className="lux-photo relative aspect-[4/5] lg:aspect-[3/4]">
+        <div className="lux-photo relative aspect-[4/3] lg:aspect-square lg:self-stretch lg:max-h-[520px]">
           <Image src={photos.neonBar.src} alt={photos.neonBar.alt} fill sizes="(min-width: 1024px) 560px, 100vw" className="object-cover" style={{ objectPosition: photos.neonBar.position }} />
         </div>
         <div>
