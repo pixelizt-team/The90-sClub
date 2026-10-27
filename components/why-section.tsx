@@ -22,9 +22,6 @@ function Heading({ align = "left" }: { align?: "left" | "center" }) {
       <h2 className="lux-h2 mt-4 text-ink">
         Why <em>The 90s Club</em>
       </h2>
-      <p className={`mt-3 font-heading text-[1.35rem] text-ink-soft ${align === "center" ? "mx-auto max-w-[40ch]" : ""}`}>
-        Four things the room is built around.
-      </p>
     </div>
   );
 }
