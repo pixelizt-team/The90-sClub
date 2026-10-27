@@ -72,10 +72,10 @@ export default function HomePage() {
         </div>
       </section>
 
+      <HighlightsStrip />
+
       {/* 01 Why choose us */}
       <WhySection />
-
-      <HighlightsStrip />
 
       {/* 02 Menu */}
       <MenuPreview />
